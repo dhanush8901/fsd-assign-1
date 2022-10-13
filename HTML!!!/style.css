@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@500&display=swap');
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+section
+{
+    position: relative;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    min-height: 80vh;
+    background: url('travel2.jpg');
+    background-blend-mode: screen;
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+header
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 40px 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 1000;
+}
+
+header .logo
+{
+    position: relative;
+    color: #015b75;
+    text-decoration: none;
+    font-size: 30px;
+    font-weight: 700;
+    Letter-spacing: 2px;
+    margin-left: -30px;
+}
+
+ /* .toggle
+{
+    position: relative;
+    width: 40px;
+    height: 40px;
+    background: url('menu.png');
+    background-size: 30px;
+    background-position: center;
+    background-repeat: no-repeat;
+    cursor: pointer;
+}
+.toggle.active
+{
+    background: url("menu.png");
+    background-size: 30px;
+    background-position: center;
+    background-repeat: no-repeat;
+    cursor: pointer;
+} */
+
+.play
+{
+   position: absolute;
+    bottom: 40px;
+    Left: 50px;
+    display: flex;
+   align-items: center;
+    cursor: pointer;
+}
+.play img
+{
+   max-width: 40px; 
+}
+.play span
+{
+    font-weight:600;
+    color:#015b75;
+    margin-left: 10px;
+    letter-spacing: 1px;
+}
+.content
+{
+    padding: 50px;
+}
+.content h6
+{
+    font-size: 4em;
+    line-height: 1em;
+    color: #015b75;
+    margin-right: -20px;
+    font-family: 'Caveat', cursive;
+}
+
+#newpost
+{
+    float:right;
+    display:none;
+
+
+}
+#button
+{
+    float:right;
+    margin-right:50px;
+}
